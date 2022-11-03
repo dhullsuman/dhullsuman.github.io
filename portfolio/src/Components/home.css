@@ -1,0 +1,21 @@
+.btn {
+    padding: 12px 20px 12px 20px;
+    border-radius: 10px;
+    border: 1px solid teal;
+    background: teal;
+    margin: auto;
+    color: white;
+    display: block;
+    gap: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    /* width: 30%; */
+    width: max-content;
+  }
+
+  .btn:hover {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }

@@ -1,11 +1,19 @@
-import "./App.css";
-import Navbar from "./component/navbar";
+import './App.css';
+import AllRoutes from './Routes/AllRoutes';
+
+
 
 function App() {
+
+
   return (
-    <div className="App" style={{backgroundColor:"#191327"}}>
-      <Navbar />
+
+    <div className="App">
+        <AllRoutes/>
     </div>
+
+
+
   );
 }
 
